@@ -1,3 +1,4 @@
+package icomp;
 
 public class Worker implements Runnable {
 

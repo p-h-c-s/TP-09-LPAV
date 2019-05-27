@@ -1,3 +1,4 @@
+package icomp;
 
 public class GlobalVar {
 	public static int var;

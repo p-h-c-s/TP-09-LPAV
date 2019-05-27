@@ -1,3 +1,4 @@
+package icomp;
 
 public class ArrayEncapsulated {
 
@@ -20,8 +21,6 @@ public class ArrayEncapsulated {
 		}
 		///*
 		System.out.println("intervalos: " + this.interv0 + " " + this.intervF + " Thread atual: " + Thread.currentThread().getId() + " valor: " + this.somaTotal);
-		System.out.println();
-		System.out.println();
 		//*/
 		GlobalVar.increment(this.somaTotal);
 		
