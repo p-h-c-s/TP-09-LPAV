@@ -16,12 +16,12 @@ public class ThreadMain {
 	 * @param tam Tamanho do vetor
 	 * @return	Vetor com valores aleatorios
 	 */
-	public static int[] generateRandomArray(int tam){
-		Random rng = new Random(123);
+	public static int[] generateRandomArray(int tam, int seed){
+		Random rng = new Random(seed);
 		int[] vet = new int[tam];
 
 		for (int i = 0; i < vet.length; i++) {
-			vet[i] = rng.nextInt(10);
+			vet[i] = rng.nextInt(1000);
 		}
 
 		return vet;
@@ -59,10 +59,10 @@ public class ThreadMain {
 	
 
 
-	public static long computationTime(int numThreads, int tamVet){
+	public static long computationTime(int numThreads, int tamVet, int seed){
 
 		int tamInterv = tamVet/numThreads;
-		int[] vet = generateRandomArray(tamVet);
+		int[] vet = generateRandomArray(tamVet, seed);
 		int[] intervalos = new int[numThreads+1];
 
 		generateIntervals(intervalos,tamInterv,tamVet);
@@ -76,13 +76,13 @@ public class ThreadMain {
 		return finish-start;
 	}
 
-	public static long[][] generateTimeMatrix(){
+	public static long[][] generateTimeMatrix(int seed){
 		ArrayList<Integer> numThreads = generatePowersofTwo(1,64);
 		ArrayList<Integer> tamanhoVetores = generatePowersofTwo(1024,65536);
 		long[][] matr = new long[7][7];
 		for (int i = 0; i < 7; i++) {
 			for (int j = 0; j <7 ; j++) {
-				matr[i][j] = computationTime(numThreads.get(i),tamanhoVetores.get(j));
+				matr[i][j] = computationTime(numThreads.get(i),tamanhoVetores.get(j),seed);
 			}
 		}
 		return matr;
@@ -99,12 +99,12 @@ public class ThreadMain {
 	public static void main(String[] args) {
 
 
-
-		long matr[][] = generateTimeMatrix();
+		int seed = 12304;
+		long matr[][] = generateTimeMatrix(seed);
 		for (int i = 0; i < 7; i++) {
 			System.out.println();
 			for (int j = 0; j <7; j++) {
-				System.out.print(matr[i][j] + ", ");
+				System.out.print(matr[i][j] + "ms, ");
 			}
 		}
 

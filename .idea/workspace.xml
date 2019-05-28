@@ -40,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/icomp/ThreadMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
+            <state relative-caret-position="425">
+              <caret line="106" column="49" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/ThreadMainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+            <state relative-caret-position="459">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -269,20 +269,11 @@
       <option name="presentableId" value="Default" />
       <updated>1558997826036</updated>
       <workItem from="1558997832753" duration="456000" />
-      <workItem from="1558998618857" duration="12502000" />
+      <workItem from="1558998618857" duration="13139000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThreadMainTest - 2019.05.27 at 21h 42m 58s.xml">
-      <configuration name="ThreadMainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadMainTest - 2019.05.27 at 21h 43m 34s.xml">
-      <configuration name="ThreadMainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadMainTest - 2019.05.27 at 21h 43m 45s.xml">
-      <configuration name="ThreadMainTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ThreadMainTest - 2019.05.27 at 21h 43m 59s.xml">
       <configuration name="ThreadMainTest" configurationId="JUnit" />
     </history-entry>
@@ -304,13 +295,21 @@
     <history-entry file="ThreadMainTest - 2019.05.27 at 22h 29m 01s.xml">
       <configuration name="ThreadMainTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ThreadMainTest - 2019.05.27 at 22h 54m 50s.xml">
+      <configuration name="ThreadMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadMainTest - 2019.05.27 at 22h 55m 04s.xml">
+      <configuration name="ThreadMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadMainTest - 2019.05.27 at 22h 55m 23s.xml">
+      <configuration name="ThreadMainTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12958000" />
+    <option name="totallyTimeSpent" value="13595000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -322,8 +321,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.3290461" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290461" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978564" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -386,15 +385,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/ThreadMainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="459">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/icomp/ThreadMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
+        <state relative-caret-position="425">
+          <caret line="106" column="49" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
