@@ -18,10 +18,9 @@ public class Main {
 		Barrier barrier = new Barrier(N);
 
 
-
 		ArrayList<Thread> threads = new ArrayList<>();
 		for (int i = 0; i < N; i++) {
-			Worker wk = new Worker();
+			Worker wk = new Worker(barrier);
 			Thread thread = new Thread(wk);
 			threads.add(thread);
 			thread.start();

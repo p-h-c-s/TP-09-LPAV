@@ -2,8 +2,14 @@ package icomp.barreira;
 
 public class Worker implements Runnable {
 
+    Barrier barrier;
+
+    public Worker(Barrier barrier) {
+        this.barrier = barrier;
+    }
+
     public void attemptToPassBarrier(){
-        Barrier.sync(this);
+        barrier.sync(this);
     }
 
     @Override

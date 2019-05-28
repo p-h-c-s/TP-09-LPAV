@@ -9,22 +9,19 @@ public class Barrier {
         Barrier.numWorkers = numWorkers;
     }
 
-    public static void sync(Worker wk){
+    public synchronized void sync(Worker wk){
 
-        synchronized (wk) {
             Barrier.numWorkersArrived++;
             while (Barrier.numWorkersArrived != numWorkers) {
-                System.out.println(Barrier.numWorkersArrived);
                 try {
                     System.out.println(Thread.currentThread().getId() + " segunda execução");
-                    wk.wait();
+                    wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
             System.out.println(Thread.currentThread().getId() + " saindo");
-            wk.notifyAll();
-        }
+            notifyAll();
     }
 
 }
