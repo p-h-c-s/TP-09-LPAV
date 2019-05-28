@@ -1,15 +1,13 @@
-package icomp;
+package icomp.somatorio;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
-import java.util.Scanner;
 
 
 public class ThreadMain {
 
 
-	static HashMap<Integer,Integer> tradutor = new HashMap<>();
 
 	/**
 	 * Gera um vetor de tamanho tam aleatório.

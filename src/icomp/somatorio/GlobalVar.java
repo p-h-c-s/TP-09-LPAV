@@ -1,4 +1,4 @@
-package icomp;
+package icomp.somatorio;
 
 public class GlobalVar {
 	public static int var;

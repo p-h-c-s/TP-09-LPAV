@@ -1,4 +1,4 @@
-package icomp;
+package icomp.somatorio;
 
 public class Worker implements Runnable {
 
