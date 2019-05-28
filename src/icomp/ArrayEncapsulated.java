@@ -16,7 +16,10 @@ public class ArrayEncapsulated {
 	}
 	
 	public void somaVet(){
-		for(int i = this.interv0; i < this.intervF; i++){
+		if(this.interv0 == 0){
+			this.somaTotal += vet[this.interv0];
+		}
+		for(int i = this.interv0+1; i <= this.intervF; i++){
 			this.somaTotal += vet[i];
 		}
 		///*
