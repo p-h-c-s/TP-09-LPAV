@@ -1,11 +1,15 @@
 package icomp;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Random;
 import java.util.Scanner;
 
 
 public class ThreadMain {
+
+
+	static HashMap<Integer,Integer> tradutor = new HashMap<>();
 
 	/**
 	 * Gera um vetor de tamanho tam aleatório.
@@ -53,37 +57,56 @@ public class ThreadMain {
 		}
 	}
 	
-	public static void generateTimeMatrix(){
-		int[][] matr = new int[7][7];
-		for (int i = 1; i < 65; i *= 2) {
-			for (int j = 1024; j <65537 ; j*=2) {
-				System.out.println( i+" | "+  j);
+
+
+	public static long computationTime(int numThreads, int tamVet){
+
+		int tamInterv = tamVet/numThreads;
+		int[] vet = generateRandomArray(tamVet);
+		int[] intervalos = new int[numThreads+1];
+
+		generateIntervals(intervalos,tamInterv,tamVet);
+		ArrayList<Thread> threads = new ArrayList<>();
+
+		long start = System.currentTimeMillis();
+		//funcao que realmente executa o trabalho
+		generateWorkers(intervalos,vet,numThreads,threads);
+		long finish = System.currentTimeMillis();
+
+		return finish-start;
+	}
+
+	public static long[][] generateTimeMatrix(){
+		ArrayList<Integer> numThreads = generatePowersofTwo(1,64);
+		ArrayList<Integer> tamanhoVetores = generatePowersofTwo(1024,65536);
+		long[][] matr = new long[7][7];
+		for (int i = 0; i < 7; i++) {
+			for (int j = 0; j <7 ; j++) {
+				matr[i][j] = computationTime(numThreads.get(i),tamanhoVetores.get(j));
 			}
 		}
+		return matr;
+	}
+
+	public static ArrayList<Integer> generatePowersofTwo(int start, int end){
+		ArrayList<Integer> arr = new ArrayList<>();
+		for (int i = start; i <= end; i*=2) {
+			arr.add(i);
+		}
+		return arr;
 	}
 
 	public static void main(String[] args) {
-		int tamVet;
-		int numThreads;
-		Scanner inp = new Scanner(System.in);
-		System.out.println("Insira o tamanho inicial do vetor: ");
-		tamVet = inp.nextInt();
-		System.out.println("Insira o número de threads: ");
-		numThreads = inp.nextInt();
-		int tamInterv = tamVet/numThreads;
-		int[] vet = generateRandomArray(tamVet);
-		//vetor que representa os intervalos dos vetores a serem somados por cada thread
-		int[] intervalos = new int[numThreads+1];
-		generateIntervals(intervalos,tamInterv,tamVet);
-		ArrayList<Thread> threads = new ArrayList<>();
-		generateWorkers(intervalos,vet,numThreads,threads);
-		
-		
-		generateTimeMatrix();
 
-		System.out.println("saida:");
-		GlobalVar.printVar();
-		//tamanho dos Intervalos == tamVet/numThreads
-		inp.close();
+
+
+		long matr[][] = generateTimeMatrix();
+		for (int i = 0; i < 7; i++) {
+			System.out.println();
+			for (int j = 0; j <7; j++) {
+				System.out.print(matr[i][j] + ", ");
+			}
+		}
+
 	}
 }
