@@ -1,5 +1,6 @@
 package icomp;
 
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -11,11 +12,14 @@ public class ThreadMain {
 	 * @param tam Tamanho do vetor
 	 * @return	Vetor com valores aleatorios
 	 */
-	private static int[] generateRandomArray(int tam){
+	public static int[] generateRandomArray(int tam){
 		Random rng = new Random(123);
 		int[] vet = new int[tam];
 
-		for (int i:vet) i = rng.nextInt();
+		for (int i = 0; i < vet.length; i++) {
+			vet[i] = rng.nextInt(10);
+		}
+
 		return vet;
 	}
 
@@ -27,7 +31,7 @@ public class ThreadMain {
 		}
 		//esse if preenche o ultimo elemento do vetor caso ele nao esteja _todo preenchido
 		if(cont < intervalos.length){
-			intervalos[cont] = cont*(tamIntervalo-1);
+			intervalos[cont] = cont*(tamIntervalo-1)-1;
 		}
 	}
 	
@@ -43,19 +47,27 @@ public class ThreadMain {
 		numThreads = inp.nextInt();
 		int tamInterv = tamVet/numThreads;
 		int[] vet = generateRandomArray(tamVet);
+		for (int i :vet) System.out.println(i);
 		//vetor que representa os intervalos dos vetores a serem somados por cada thread
 		int[] intervalos = new int[tamVet];
 		generateIntervals(intervalos,tamInterv);
 
+		ArrayList<Thread> threads = new ArrayList<>();
 
-		Thread[] threads = new Thread[numThreads];
-		int contThreads = 0;
-		for(int i = 0; i < tamVet-1; i +=tamInterv){
+		int sum = 0;
+		for (int i :vet) {
+			sum += i;
+		}
+
+		System.out.println("soma esperada: " + sum);
+
+
+		for(int i = 0; i < tamInterv-1; i++){
 			arr = new ArrayEncapsulated(intervalos[i],intervalos[i+1],vet);
 			Worker wk = new Worker(arr);
-			threads[contThreads] = new Thread(wk);
-			threads[contThreads].start();
-			contThreads++;
+			Thread thread = new Thread(wk);
+			thread.start();
+			threads.add(thread);
 		}
 		//da join para a main esperar as threads terminarem de executar
 		for(Thread t: threads){
