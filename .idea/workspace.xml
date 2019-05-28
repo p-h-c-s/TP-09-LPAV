@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1731b32e-198c-481d-a1b0-71fdd2e37c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/icomp/barreira/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icomp/barreira/Barrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icomp/barreira/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icomp/ArrayEncapsulated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/somatorio/ArrayEncapsulated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icomp/GlobalVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/somatorio/GlobalVar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icomp/ThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/somatorio/ThreadMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icomp/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/somatorio/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/ThreadMainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ThreadMainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icomp/barreira/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/barreira/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,49 +40,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/icomp/somatorio/ThreadMain.java">
+        <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="238">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Barrier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/icomp/somatorio/ArrayEncapsulated.java">
+        <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Worker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Main.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/icomp/somatorio/GlobalVar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tests/ThreadMainTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+              <caret line="834" selection-start-line="834" selection-end-line="834" />
             </state>
           </provider>
         </entry>
@@ -97,6 +90,7 @@
       <list>
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -118,7 +112,9 @@
         <option value="$PROJECT_DIR$/src/tests/ThreadMainTest.java" />
         <option value="$PROJECT_DIR$/src/icomp/ThreadMain.java" />
         <option value="$PROJECT_DIR$/src/icomp/somatorio/ThreadMain.java" />
+        <option value="$PROJECT_DIR$/src/icomp/barreira/Worker.java" />
         <option value="$PROJECT_DIR$/src/icomp/barreira/Main.java" />
+        <option value="$PROJECT_DIR$/src/icomp/barreira/Barrier.java" />
       </list>
     </option>
   </component>
@@ -221,7 +217,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icomp.barreira.Main" />
+      <module name="TP-09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="icomp.barreira.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="icomp.somatorio.ThreadMain" />
       <module name="TP-09" />
@@ -284,6 +293,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ThreadMainTest" />
         <item itemvalue="JUnit.ThreadMainTest.main" />
@@ -302,7 +312,7 @@
       <option name="presentableId" value="Default" />
       <updated>1558997826036</updated>
       <workItem from="1558997832753" duration="456000" />
-      <workItem from="1558998618857" duration="13672000" />
+      <workItem from="1558998618857" duration="15445000" />
     </task>
     <servers />
   </component>
@@ -339,13 +349,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14128000" />
+    <option name="totallyTimeSpent" value="15901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -355,7 +365,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3290461" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/icomp/somatorio/Worker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/icomp/somatorio/GlobalVar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -434,10 +437,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/icomp/somatorio/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="325" selection-start-line="325" selection-end-line="325" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Worker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <caret line="834" selection-start-line="834" selection-end-line="834" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Barrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
