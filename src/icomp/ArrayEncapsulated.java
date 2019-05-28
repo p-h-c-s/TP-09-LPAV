@@ -22,9 +22,9 @@ public class ArrayEncapsulated {
 		for(int i = this.interv0+1; i <= this.intervF; i++){
 			this.somaTotal += vet[i];
 		}
-		///*
-		System.out.println("intervalos: " + this.interv0 + " " + this.intervF + " Thread atual: " + Thread.currentThread().getId() + " valor: " + this.somaTotal);
-		//*/
+
+		//System.out.println("intervalos: " + this.interv0 + " " + this.intervF + " Thread atual: " + Thread.currentThread().getId() + " valor: " + this.somaTotal);
+
 		GlobalVar.increment(this.somaTotal);
 		
 	}

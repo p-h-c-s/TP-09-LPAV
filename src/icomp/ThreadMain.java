@@ -34,11 +34,37 @@ public class ThreadMain {
 		}
 
 	}
+
+	static void generateWorkers(int[] intervalos,int[] vet, int numThreads, ArrayList<Thread> threads) {
+		for (int i = 0; i < numThreads; i++) {
+			ArrayEncapsulated arr = new ArrayEncapsulated(intervalos[i], intervalos[i + 1], vet);
+			Worker wk = new Worker(arr);
+			Thread thread = new Thread(wk);
+			thread.start();
+			threads.add(thread);
+		}
+
+		for (Thread t : threads) {
+			try {
+				t.join();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
 	
+	public static void generateTimeMatrix(){
+		int[][] matr = new int[7][7];
+		for (int i = 1; i < 65; i *= 2) {
+			for (int j = 1024; j <65537 ; j*=2) {
+				System.out.println( i+" | "+  j);
+			}
+		}
+	}
+
 	public static void main(String[] args) {
 		int tamVet;
 		int numThreads;
-		ArrayEncapsulated arr;
 		Scanner inp = new Scanner(System.in);
 		System.out.println("Insira o tamanho inicial do vetor: ");
 		tamVet = inp.nextInt();
@@ -49,40 +75,12 @@ public class ThreadMain {
 		//vetor que representa os intervalos dos vetores a serem somados por cada thread
 		int[] intervalos = new int[numThreads+1];
 		generateIntervals(intervalos,tamInterv,tamVet);
-
 		ArrayList<Thread> threads = new ArrayList<>();
+		generateWorkers(intervalos,vet,numThreads,threads);
+		
+		
+		generateTimeMatrix();
 
-		int sum = 0;
-		for (int i :vet) {
-			sum += i;
-		}
-		System.out.println("soma esperada: " + sum);
-
-
-
-		for(int i = 0; i < numThreads; i++){
-			arr = new ArrayEncapsulated(intervalos[i],intervalos[i+1],vet);
-			Worker wk = new Worker(arr);
-			Thread thread = new Thread(wk);
-			thread.start();
-			threads.add(thread);
-		}
-		/*
-		for(int i = 0; i < tamInterv-1; i++){
-			arr = new ArrayEncapsulated(intervalos[i],intervalos[i+1],vet);
-			Worker wk = new Worker(arr);
-			Thread thread = new Thread(wk);
-			thread.start();
-			threads.add(thread);
-		}*/
-		//da join para a main esperar as threads terminarem de executar
-		for(Thread t: threads){
-			try {
-				t.join();
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-		}
 		System.out.println("saida:");
 		GlobalVar.printVar();
 		//tamanho dos Intervalos == tamVet/numThreads
