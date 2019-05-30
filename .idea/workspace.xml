@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1731b32e-198c-481d-a1b0-71fdd2e37c3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/icomp/ContaPoupanca/ContaPoupanca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icomp/ContaPoupanca/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icomp/ContaPoupanca/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icomp/barreira/Barrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/barreira/Barrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icomp/barreira/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/barreira/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icomp/barreira/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/barreira/Worker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icomp/somatorio/ArrayEncapsulated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/somatorio/ArrayEncapsulated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icomp/somatorio/ThreadMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/somatorio/ThreadMain.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,20 +32,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" selection-start-line="12" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
+              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/ContaPoupanca.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/Pessoa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -137,12 +164,14 @@
         <option value="$PROJECT_DIR$/src/icomp/barreira/Barrier.java" />
         <option value="$PROJECT_DIR$/src/icomp/barreira/Worker.java" />
         <option value="$PROJECT_DIR$/src/icomp/barreira/Main.java" />
+        <option value="$PROJECT_DIR$/src/icomp/ContaPoupanca/ContaPoupanca.java" />
+        <option value="$PROJECT_DIR$/src/icomp/ContaPoupanca/Pessoa.java" />
+        <option value="$PROJECT_DIR$/src/icomp/ContaPoupanca/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1039" />
-    <option name="y" value="194" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
@@ -183,6 +212,13 @@
               <item name="TP-09-LPAV" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="icomp" type="462c0819:PsiDirectoryNode" />
+              <item name="ContaPoupanca" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TP-09-LPAV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP-09-LPAV" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="icomp" type="462c0819:PsiDirectoryNode" />
               <item name="somatorio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,11 +253,12 @@
       <recent name="tests" />
       <recent name="" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="icomp.barreira" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="icomp.ContaPoupanca" />
+      <recent name="icomp.barreira" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PedroHC\Documents\ICOMP-SSD\5o periodo\LPAV\TP-09" />
@@ -343,7 +380,7 @@
       <updated>1558997826036</updated>
       <workItem from="1558997832753" duration="456000" />
       <workItem from="1558998618857" duration="16298000" />
-      <workItem from="1559258369942" duration="803000" />
+      <workItem from="1559258369942" duration="1667000" />
     </task>
     <servers />
   </component>
@@ -380,13 +417,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17557000" />
+    <option name="totallyTimeSpent" value="18421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -395,7 +432,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -503,8 +540,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/Pessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/ContaPoupanca.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
         </state>
       </provider>
     </entry>
