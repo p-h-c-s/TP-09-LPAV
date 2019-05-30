@@ -11,10 +11,10 @@ import java.util.Scanner;
 public class Main {
 
 
-
+	//no intellij os parametros de linha de comando sao colocados em "edit configuration"
 	public static void main(String[] args) {
-		Scanner inp = new Scanner(System.in);
-		int N = inp.nextInt();
+		//passar por linha de comando
+		int N = Integer.parseInt(args[0]);
 		Barrier barrier = new Barrier(N);
 
 

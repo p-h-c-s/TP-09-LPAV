@@ -14,8 +14,8 @@ public class Worker implements Runnable {
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getId() + " primeira execução");
+        System.out.println("Thread : " + Thread.currentThread().getId() + " primeira execução");
         attemptToPassBarrier();
-        System.out.println(Thread.currentThread().getId() + " terceira execução");
+        System.out.println("Thread : " + Thread.currentThread().getId() + " terceira execução");
     }
 }

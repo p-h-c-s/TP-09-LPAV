@@ -14,7 +14,7 @@ public class Barrier {
             Barrier.numWorkersArrived++;
             while (Barrier.numWorkersArrived != numWorkers) {
                 try {
-                    System.out.println(Thread.currentThread().getId() + " segunda execução");
+                    System.out.println("Thread : " + Thread.currentThread().getId() + " segunda execução");
                     wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
