@@ -19,6 +19,7 @@ public class ArrayEncapsulated {
 		if(this.interv0 == 0){
 			this.somaTotal += vet[this.interv0];
 		}
+		//o +1 em interv0 é porque o intervalo é aberto.
 		for(int i = this.interv0+1; i <= this.intervF; i++){
 			this.somaTotal += vet[i];
 		}

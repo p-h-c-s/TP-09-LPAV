@@ -94,6 +94,11 @@ public class ThreadMain {
 		return arr;
 	}
 
+	/**
+	 * O método computationTime chama os métodos que separam o vetor de entrada em K partes iguais e depois
+	 * chama o método que cria as K threads para cada partição do vetor. O método generateMatrix é so um facilitador para gerar a matriz de tempos.
+	 * @param args
+	 */
 	public static void main(String[] args) {
 
 
