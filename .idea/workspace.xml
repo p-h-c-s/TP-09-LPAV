@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1731b32e-198c-481d-a1b0-71fdd2e37c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/icomp/ContaPoupanca/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icomp/ContaPoupanca/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icomp/ContaPoupanca/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icomp/ContaPoupanca/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/ContaPoupanca/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icomp/ContaPoupanca/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/ContaPoupanca/MainConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icomp/ContaPoupanca/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icomp/ContaPoupanca/Pessoa.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,29 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/icomp/somatorio/Worker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" selection-start-line="12" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/MainConta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="221">
+              <caret line="18" column="112" selection-start-line="18" selection-start-column="112" selection-end-line="18" selection-end-column="112" />
             </state>
           </provider>
         </entry>
@@ -52,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/ContaPoupanca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="272">
+              <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
               <folding>
                 <element signature="e#121#122#0" expanded="true" />
                 <element signature="e#155#156#0" expanded="true" />
@@ -61,10 +43,6 @@
                 <element signature="e#138#139#0" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
                 <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,38 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/Pessoa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Barrier.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/icomp/somatorio/ThreadMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-986">
-              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/icomp/somatorio/ArrayEncapsulated.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+            <state relative-caret-position="408">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -112,21 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/ThreadMainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/icomp/barreira/Worker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-              <folding>
-                <element signature="e#125#126#0" expanded="true" />
-                <element signature="e#163#164#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -157,16 +92,17 @@
         <option value="$PROJECT_DIR$/src/generatIntervalsTest.java" />
         <option value="$PROJECT_DIR$/src/ThreadMain.java" />
         <option value="$PROJECT_DIR$/src/icomp/ArrayEncapsulated.java" />
-        <option value="$PROJECT_DIR$/src/tests/ThreadMainTest.java" />
         <option value="$PROJECT_DIR$/src/icomp/ThreadMain.java" />
         <option value="$PROJECT_DIR$/src/icomp/somatorio/ThreadMain.java" />
         <option value="$PROJECT_DIR$/src/icomp/somatorio/ArrayEncapsulated.java" />
         <option value="$PROJECT_DIR$/src/icomp/barreira/Barrier.java" />
         <option value="$PROJECT_DIR$/src/icomp/barreira/Worker.java" />
         <option value="$PROJECT_DIR$/src/icomp/barreira/Main.java" />
+        <option value="$PROJECT_DIR$/src/icomp/ContaPoupanca/Main.java" />
+        <option value="$PROJECT_DIR$/src/tests/ThreadMainTest.java" />
         <option value="$PROJECT_DIR$/src/icomp/ContaPoupanca/ContaPoupanca.java" />
         <option value="$PROJECT_DIR$/src/icomp/ContaPoupanca/Pessoa.java" />
-        <option value="$PROJECT_DIR$/src/icomp/ContaPoupanca/Main.java" />
+        <option value="$PROJECT_DIR$/src/icomp/ContaPoupanca/MainConta.java" />
       </list>
     </option>
   </component>
@@ -276,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.MainConta">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="icomp.barreira.Main" />
       <module name="TP-09" />
@@ -300,22 +236,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadMainTest" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+    <configuration name="MainConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="icomp.ContaPoupanca.MainConta" />
       <module name="TP-09" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="icomp.ContaPoupanca.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ThreadMainTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -354,17 +283,17 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Arquillian JUnit.ThreadMainTest" />
+      <item itemvalue="Application.MainConta" />
       <item itemvalue="JUnit.ThreadMainTest" />
       <item itemvalue="JUnit.ThreadMainTest.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainConta" />
+        <item itemvalue="JUnit.ThreadMainTest" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ThreadMainTest.main" />
-        <item itemvalue="JUnit.ThreadMainTest" />
-        <item itemvalue="Arquillian JUnit.ThreadMainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -380,17 +309,11 @@
       <updated>1558997826036</updated>
       <workItem from="1558997832753" duration="456000" />
       <workItem from="1558998618857" duration="16298000" />
-      <workItem from="1559258369942" duration="1667000" />
+      <workItem from="1559258369942" duration="3199000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThreadMainTest - 2019.05.27 at 21h 45m 24s.xml">
-      <configuration name="ThreadMainTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThreadMainTest - 2019.05.27 at 21h 45m 33s.xml">
-      <configuration name="ThreadMainTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ThreadMainTest - 2019.05.27 at 21h 47m 42s.xml">
       <configuration name="ThreadMainTest" configurationId="JUnit" />
     </history-entry>
@@ -415,15 +338,21 @@
     <history-entry file="ThreadMainTest_main - 2019.05.30 at 19h 22m 01s.xml">
       <configuration name="ThreadMainTest.main" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ThreadMainTest - 2019.05.30 at 19h 51m 21s.xml">
+      <configuration name="ThreadMainTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreadMainTest - 2019.05.30 at 19h 51m 36s.xml">
+      <configuration name="ThreadMainTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18421000" />
+    <option name="totallyTimeSpent" value="19953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -432,7 +361,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -489,13 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/ThreadMainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/icomp/somatorio/Worker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -545,17 +467,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/Pessoa.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/ThreadMainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="459">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/ContaPoupanca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="272">
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
           <folding>
             <element signature="e#121#122#0" expanded="true" />
             <element signature="e#155#156#0" expanded="true" />
@@ -563,18 +485,21 @@
             <element signature="e#138#139#0" expanded="true" />
             <element signature="e#248#249#0" expanded="true" />
             <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/Pessoa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="408">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/icomp/ContaPoupanca/MainConta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="112" selection-start-line="18" selection-start-column="112" selection-end-line="18" selection-end-column="112" />
         </state>
       </provider>
     </entry>

@@ -8,17 +8,19 @@ import java.util.Random;
 import java.util.Scanner;
 
 
-public class Main {
+public class MainConta {
 
 
 	//no intellij os parametros de linha de comando sao colocados em "edit configuration"
 	public static void main(String[] args) {
 		int N;
 		int M;
-		int saldoInicial = 5000;
+		int saldoInicial = 1000;
+		//a seed define o estado que controla quantos saques e quantos depositos serao feitos. (Util para testar)
 		Random rng = new Random(123);
 		Scanner scanner = new Scanner(System.in);
 
+		System.out.println("Insira o número de pessoas e o número de depósitos ou saques: ");
 		N = scanner.nextInt();
 		M = scanner.nextInt();
 
@@ -32,7 +34,6 @@ public class Main {
 			threads.add(thread);
 			thread.start();
 		}
-
 		for (Thread t:threads) {
 			try {
 				t.join();
@@ -40,8 +41,6 @@ public class Main {
 				e.printStackTrace();
 			}
 		}
-
-		System.out.println("Saldo final: " + contaPoupanca.getSaldo());
-
+		System.out.println("\nSaldo final: " + contaPoupanca.getSaldo());
 	}
 }

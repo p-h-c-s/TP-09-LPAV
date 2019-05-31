@@ -20,12 +20,11 @@ public class Pessoa implements Runnable {
     @Override
     public void run() {
         for (int i = 0; i < numSaques; i++) {
-            if(rng.nextInt(1) % 2 == 0){
-                System.out.println("Pessoa " + Thread.currentThread().getId() + " depositando 100");
-                contaPoupanca.deposito(100);
+            //o bound do rng.nextInt() precisa ser 2 pq o bound é o valor máximo, sem ele mesmo.
+            if(rng.nextInt(2) % 2 == 0){
+                contaPoupanca.deposito(Thread.currentThread().getId(),100);
             }else{
-                System.out.println("Pessoa " + Thread.currentThread().getId() + " sacando 100");
-                contaPoupanca.saque(100);
+                contaPoupanca.saque(Thread.currentThread().getId(),100);
             }
         }
     }
